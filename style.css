@@ -1,0 +1,40 @@
+.my-bg {
+  background-color: #1f2937;
+}
+
+.bg-green {
+  background-color: #22c55e;
+}
+
+.bg-red {
+  background-color: #ef4444;
+}
+
+.my-border {
+  border: 1px solid #22c55e;
+}
+
+.pagination > li > a {
+  background-color: #1f2937;
+  color: #22c55e;
+}
+
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:focus,
+.pagination > li > span:hover {
+  color: #5a5a5a;
+  background-color: #eee;
+  border-color: #ddd;
+}
+
+.pagination > .active > a {
+  color: white;
+  background-color: #22c55e !important;
+  border: solid 1px #22c55e !important;
+}
+
+.pagination > .active > a:hover {
+  background-color: #22c55e !important;
+  border: solid 1px #22c55e;
+}
